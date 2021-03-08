@@ -1,0 +1,75 @@
+body{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 30%;
+margin: 0%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+div.left{
+    grid-column: 1/2;
+    display:flex;
+    flex-direction: column;
+
+}
+div.right{
+    grid-column: 2/4;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 150%;
+}
+article.lowerleft{
+    padding:10%;
+    color: white;
+    background-color: royalblue;
+    grid-row:2/-1;
+}
+div.lowerright{
+    grid-column: 2/-1;
+}
+
+#RS{
+  border-bottom: solid 3px royalblue;  
+}
+article.summary{
+    display:flex;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0%;
+}
+h3{
+    margin-top: 0%;
+}
+div.CS{
+    width: 50%;
+}
+div.PS{
+    margin-right: 5%;
+      width: 50%; 
+}
+article.work {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    margin: 5%;
+}
+div.WSD{
+    width: 50%;
+}
+article.academic {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    margin: 5%;
+}
+div.AH{
+    width: 50%;
+}
+}
+
+
