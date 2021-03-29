@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Resume_Project.css">
+    <script src="resume.js"></script>
+ 
 </head>
 <body>
     <div class="left">
-        <img src="https://dynaimage.cdn.cnn.com/cnn/w_768,h_1024,c_scale/https%3A%2F%2Fdynaimage.cdn.cnn.com%2Fcnn%2Fx_0%2Cy_0%2Cw_1543%2Ch_2057%2Cc_crop%2Fhttps%253A%252F%252Fstamp.static.cnn.io%252F5b69ad434db3d70020c01bfb%252F160905164319-freddie-mercury-richard-young-4.jpg" alt="">
+        <div id="pic"
+        onmouseover="poof()" onmouseout="yup()">
+        <img src="./FMpic.png" alt="" >
+        </div>
     </div>
     <article class="lowerleft"> 
-     <h3>Contact Details</h3> 
-     <p>Freddie@Mercury.com</p>  
+     <h3>Contact Details</h3>
+     <h4>Email:</h4> 
+     <p>Freddie@Mercury.com</p>
+     <button onclick="toggleText()">PHONE:</button> <br>
+     <p id='num' style = 'display: none'>    
+     555-555-5555 </p> 
+     <BR></BR>
      <h3>Work References</h3>
      <p>Brian May</p>
      <p>Roger Taylor</p>
     </article> 
     <div class="right">
-    <h1>Freddie Mercury</h1>
+    <h1 onclick="fadeIn()" id="FM" >Freddie Mercury</h1>
     <h2 id="RS">Rock Star</h2>
     </div> 
     <div class="lowerright">
